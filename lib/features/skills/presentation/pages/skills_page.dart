@@ -27,8 +27,8 @@ class SkillsPage extends ConsumerWidget {
           _buildSkillCategory(context, 'Mobile App Development', [
             _SkillItem('Flutter', FontAwesomeIcons.mobileScreen),
             _SkillItem('Dart', FontAwesomeIcons.code),
-            _SkillItem('Android Basics', FontAwesomeIcons.android),
-            _SkillItem('iOS Basics', FontAwesomeIcons.apple),
+            _SkillItem('Android', FontAwesomeIcons.android),
+            _SkillItem('iOS', FontAwesomeIcons.apple),
             _SkillItem('Responsive UI', FontAwesomeIcons.expand),
             _SkillItem('Material UI', FontAwesomeIcons.palette),
             _SkillItem('Cupertino Widgets', FontAwesomeIcons.mobile),
@@ -59,10 +59,7 @@ class SkillsPage extends ConsumerWidget {
             _SkillItem('Localization (i18n & l10n)', FontAwesomeIcons.globe),
             _SkillItem('Multi-language Support', FontAwesomeIcons.language),
             _SkillItem('Local Notifications', FontAwesomeIcons.bell),
-            _SkillItem(
-              'Push Notifications (Basics)',
-              FontAwesomeIcons.paperPlane,
-            ),
+            _SkillItem('Push Notifications', FontAwesomeIcons.paperPlane),
           ]),
           const SizedBox(height: 30),
 
@@ -80,8 +77,8 @@ class SkillsPage extends ConsumerWidget {
 
           // App Features & Utilities
           _buildSkillCategory(context, 'App Features & Utilities', [
-            _SkillItem('Form Validation', FontAwesomeIcons.checkCircle),
-            _SkillItem('Local Storage', FontAwesomeIcons.save),
+            _SkillItem('Form Validation', FontAwesomeIcons.circleCheck),
+            _SkillItem('Local Storage', FontAwesomeIcons.floppyDisk),
             _SkillItem('SharedPreferences', FontAwesomeIcons.box),
             _SkillItem('Hive Database', FontAwesomeIcons.cube),
             _SkillItem('Theme Switching', FontAwesomeIcons.moon),
