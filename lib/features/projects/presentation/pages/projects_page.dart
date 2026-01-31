@@ -161,6 +161,7 @@ class ProjectsPage extends ConsumerWidget {
                                                 ),
                                               ),
                                               padding: EdgeInsets.zero,
+                                              side: BorderSide.none,
                                             ),
                                           )
                                           .toList(),

@@ -158,47 +158,42 @@ class AboutPage extends ConsumerWidget {
         Wrap(
           spacing: 10,
           runSpacing: 10,
-          children: const [
-            Chip(label: Text('Flutter & Dart')),
-            Chip(label: Text('Clean Architecture')),
-            Chip(label: Text('Riverpod & BLoC')),
-            Chip(label: Text('Firebase & REST APIs')),
-            Chip(label: Text('Responsive UI')),
-
-            // App Development
-            Chip(label: Text('Material & Cupertino Widgets')),
-            Chip(label: Text('State Management')),
-            Chip(label: Text('Form Validation')),
-            Chip(label: Text('Local Storage')),
-            Chip(label: Text('Theme & Dark Mode')),
-
-            // Backend & Networking
-            Chip(label: Text('Dio HTTP Client')),
-            Chip(label: Text('JSON Parsing')),
-            Chip(label: Text('Authentication')),
-            Chip(label: Text('API Integration')),
-            Chip(label: Text('Error Handling')),
-
-            // Localization & Notifications
-            Chip(label: Text('Localization (i18n & l10n)')),
-            Chip(label: Text('Multi-language Support')),
-            Chip(label: Text('Local Notifications')),
-            Chip(label: Text('Push Notifications (Basics)')),
-
-            // Architecture & Tools
-            Chip(label: Text('MVVM / MVC')),
-            Chip(label: Text('Dependency Injection')),
-            Chip(label: Text('GetIt')),
-            Chip(label: Text('GoRouter')),
-            Chip(label: Text('Git & GitHub')),
-
-            // Quality & Extras
-            Chip(label: Text('Debugging')),
-            Chip(label: Text('Unit Testing (Basics)')),
-            Chip(label: Text('Widget Testing (Basics)')),
-            Chip(label: Text('Animations (Basic)')),
-            Chip(label: Text('Problem Solving')),
-          ],
+          children:
+              [
+                    'Flutter & Dart',
+                    'Clean Architecture',
+                    'Riverpod & BLoC',
+                    'Firebase & REST APIs',
+                    'Responsive UI',
+                    'Material & Cupertino Widgets',
+                    'State Management',
+                    'Form Validation',
+                    'Local Storage',
+                    'Theme & Dark Mode',
+                    'Dio HTTP Client',
+                    'JSON Parsing',
+                    'Authentication',
+                    'API Integration',
+                    'Error Handling',
+                    'Localization (i18n & l10n)',
+                    'Multi-language Support',
+                    'Local Notifications',
+                    'Push Notifications (Basics)',
+                    'MVVM / MVC',
+                    'Dependency Injection',
+                    'GetIt',
+                    'GoRouter',
+                    'Git & GitHub',
+                    'Debugging',
+                    'Unit Testing (Basics)',
+                    'Widget Testing (Basics)',
+                    'Animations (Basic)',
+                    'Problem Solving',
+                  ]
+                  .map(
+                    (skill) => Chip(label: Text(skill), side: BorderSide.none),
+                  )
+                  .toList(),
         ),
       ],
     );
