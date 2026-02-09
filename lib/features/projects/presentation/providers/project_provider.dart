@@ -20,9 +20,9 @@ final projectsProvider = Provider<List<Project>>((ref) {
     ),
 
     Project(
-      title: 'Saving Money App',
+      title: 'Money Saving App',
       description:
-          'Developed a cross-platform saving money app using Dart, following scalable architecture principles. Implemented Clean Architecture to improve maintainability.',
+          'Developed a cross-platform money saving app using Dart, following scalable architecture principles. Implemented Clean Architecture to improve maintainability.',
       images: [
         'assets/images/saving_app_login.png',
         'assets/images/saving_app_dashboard.png',

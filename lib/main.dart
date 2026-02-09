@@ -23,9 +23,9 @@ class MyApp extends ConsumerWidget {
         return MaterialApp.router(
           title: 'My Portfolio',
           debugShowCheckedModeBanner: false,
-          theme: AppTheme.lightTheme,
+          theme: AppTheme.darkTheme,
           darkTheme: AppTheme.darkTheme,
-          themeMode: ThemeMode.system, // Or control via provider
+          themeMode: ThemeMode.dark,
           routerConfig: router,
         );
       },
